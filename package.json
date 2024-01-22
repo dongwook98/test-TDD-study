@@ -1,0 +1,25 @@
+{
+  "name": "test-tdd-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dongwook98/test-TDD-study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dongwook98/test-TDD-study/issues"
+  },
+  "homepage": "https://github.com/dongwook98/test-TDD-study#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "@types/jest": "^29.5.11"
+  }
+}
