@@ -34,6 +34,13 @@ describe('Calculator', () => {
     expect(cal.value).toBe(14);
   });
 
+  it('add should throw an error if value is grater than 100', () => {
+    // 예상하는 에러 테스트 하는 방법
+    expect(() => {
+      cal.add(101);
+    }).toThrow('Value can not be greater than 100');
+  });
+
   it('subtract', () => {
     cal.subtract(2);
     expect(cal.value).toBe(-2);
