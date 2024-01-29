@@ -1,4 +1,4 @@
-const add = require('../../add.js');
+const add = require('../add.js');
 
 // npm i @types/jest, jest에서 제공하는 타입 정보 설치
 

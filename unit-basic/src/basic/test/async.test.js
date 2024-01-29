@@ -1,4 +1,4 @@
-const fetchProduct = require('../../async.js');
+const fetchProduct = require('../async.js');
 
 /**
  * 비동기 코드 테스트 하는 방법
