@@ -18,6 +18,8 @@ const config = {
   clearMocks: true,
 
   // Indicates whether the coverage information should be collected while executing the test
+  // 커버리지 정보 on/off
+  // jest --coverage로 따로 실행 가능
   collectCoverage: false,
 
   // An array of glob patterns indicating a set of files for which coverage information should be collected
